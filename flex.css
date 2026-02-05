@@ -137,7 +137,7 @@ body {
     border-radius:8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.45);
 }
-.card h3{margin:0 0 .5rem;font-weight: 600;}
+.card h3{margin:0 0 .5rem;font-weight: 600;color: #8ec1fc;}
 .card p{margin:0;color:rgba(198, 198, 198, 0.85);font-weight: 100;}
 
 
