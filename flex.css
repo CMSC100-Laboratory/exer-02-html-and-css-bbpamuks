@@ -63,6 +63,7 @@ body {
 }
 
 /* -------------------Avatar and About------------------ */
+
 .about-section {
     margin: 2.5rem auto;
     padding:2rem;
@@ -140,17 +141,75 @@ body {
 .card p{margin:0;color:rgba(198, 198, 198, 0.85);font-weight: 100;}
 
 
+/*-----------SKILLS AND AUTOBIOGRAPHY----------- */
+
+.skills_autobiography-section{
+    border-top: 1px solid rgba(255,255,255,0.12); 
+    padding-top: 1rem;
+    margin-top: 1.25rem;
+}
+
+.skills_autobiography-inner{
+    display:flex;
+    gap:1rem;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 .75rem;
+}
+
+.skills-text{ 
+    flex:1 1 40%; 
+    min-width:220px 
+}
+
+.autobiography-text{ 
+    flex:1 1 60%; 
+    min-width:220px 
+}
+
+.list_skills{ 
+    margin:0; 
+    padding-left:1.25rem 
+}
+
+.list_skills li{ 
+    margin-bottom:.35rem
+ }
+
+/* ------------------- FOOTER ------------------ */
+.site-footer{ 
+    padding:1rem 0; 
+    margin-top:1.5rem; 
+    color:rgba(39, 135, 164, 0.9); 
+}
+.footer-inner{ 
+    display:flex; 
+    gap:1rem; 
+    justify-content:space-between; 
+    align-items:flex-start; 
+    max-width:1200px; 
+    margin:0 auto; 
+    padding:0 .75rem; 
+    flex-wrap:wrap 
+}
+.footer-col{ 
+    flex:1 1 30%; 
+    min-width:200px 
+}
 
 
-.flex-container2 {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(165, 165, 165);
-    flex-direction: row;
-}
-.flex-item {
-    border-style:none;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-}
+.footer-bottom{ 
+    text-align:center; 
+    margin-top:.75rem; 
+    border-top:1px solid 
+    rgba(255,255,255,0.06); 
+    padding-top:.5rem }
+
+.site-footer a{ 
+    color:inherit; 
+    text-decoration:underline }
+
+
+
