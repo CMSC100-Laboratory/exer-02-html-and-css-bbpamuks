@@ -4,90 +4,83 @@
   <head>
     <title>Sample Web Page</title>
     <link rel="stylesheet" type="text/css" href="flex.css" />
+   
 
   </head>
 
   <body>
     
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
+    <header class="site-header">
+        <nav class="nav_bar" role="navigation" aria-label="Main">
+            <div class="nav-inner">
+                <h3 href="#" class="logo">Brylle Pamulaklakin<span class="logo-sub">Aspiring SFE</span></h3>               
+                <div class="nav-links">
+                    <a href="#projects">More Information</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="about" class="about-section">
+        <div class="about-inner">
+            <div class="about-text">
+                <h2>BRYLLE PAMULAKLAKIN</h2>
+                <p>I’m an aspiring software engineer who loves 
+                    turning ideas into clean, accessible web interfaces. 
+                    I enjoy learning new tools (HTML, CSS, JavaScript), 
+                    building small projects to solve real problems, and 
+                    improving user experience through clarity and performance. 
+                    Outside of coding I sketch UI concepts, tinker with design systems,
+                     and read about web accessibility.</p>
+            </div>
+            <aside class="about-side">
+                <img src="images/profile.jpg" alt="Profile" class="about-img">
+            </aside>
         </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
-        </div>
-    </div>
-    </nav>
+    </section>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
+   
+    <div>
+        <h2 class="project-title">PROJECTS</h2>
     </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
+    <section class="projects">
+        <div class="cards">
+            <article class="card">
+                <h3>Project Portfolio Site</h3>
+                <p>Responsive personal site showcasing projects, resume, and contact. Built with semantic HTML and accessible patterns; deployable as static site.</p>
+            </article>
+
+            <article class="card">
+                <h3>Task Manager (LocalStorage)</h3>
+                <p>A lightweight SPA to add/edit/complete tasks saved in LocalStorage. Focus on state, keyboard access, and mobile-friendly UI.</p>
+            </article>
+
+            <article class="card">
+                <h3>API Data Visualizer</h3>
+                <p>Fetch public datasets and render interactive charts with filtering and tooltips. Emphasizes data cleaning, performance, and responsive visuals.</p>
+            </article>
         </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
+    </section>
+
+    <section id="skills_autobiography" class="skills_autobiography-section">
+        <div class="skills_autobiography-inner">
+            <div class="skills_autobiography-text">
+                <h2>SKILLS</h2>
+                <p>I’m an aspiring software engineer who loves 
+                    turning ideas into clean, accessible web interfaces. 
+                    I enjoy learning new tools (HTML, CSS, JavaScript), 
+                    building small projects to solve real problems, and 
+                    improving user experience through clarity and performance. 
+                    Outside of coding I sketch UI concepts, tinker with design systems,
+                     and read about web accessibility.</p>
+            </div>
+            <aside class="">
+                <img src="images/profile.jpg" alt="Profile" class="about-img">
+            </aside>
         </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
+    </section>
   </body>
 
 </html>
