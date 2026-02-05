@@ -4,8 +4,8 @@ BS Computer Science
 
 **DESCRIPTION:**
 
-  This is a sample portfolio containing a single-page static portfolio website using HTML and CSS. The page from your website must
-be written from scratch, without using any CSS framework and JavaScript Library.
+  This is a sample portfolio containing a single-page static  website using HTML and CSS. The page from this website is
+ written from scratch, without using any CSS framework and JavaScript Library.
 
 Live Website LINK: https://cmsc100-laboratory.github.io/exer-02-html-and-css-bbpamuks/
 
@@ -16,4 +16,5 @@ Live Website LINK: https://cmsc100-laboratory.github.io/exer-02-html-and-css-bbp
   - Select main and /root in Branch and click Save
 
 **TAKEAWAYS**
-  - 
+
+  - I realized that front-end is fun. I got to learn and implement new stuff.
