@@ -16,4 +16,5 @@ Live Website LINK: https://cmsc100-laboratory.github.io/exer-02-html-and-css-bbp
   - Select main and /root in Branch and click Save
 
 **TAKEAWAYS**
-  - 
+
+  - I realized that front-end is fun.I got to learn and implement new stuff.
